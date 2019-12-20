@@ -14,6 +14,16 @@ nav{
 
 }
 
+
+.huge{
+    touch-action: pan-y pinch-zoom;
+   
+}
+
+body{
+    overflow-x: hidden;
+}
+
 .logo{
     color: rgb(212, 203, 203);
     text-transform: uppercase;
@@ -505,6 +515,7 @@ footer .fa-instagram:hover{
 
     body{
         overflow-x: hidden;
+       
     }
    .huge{
         touch-action: pan-y pinch-zoom;
@@ -533,10 +544,15 @@ footer .fa-instagram:hover{
         grid-row-gap: 20px;
     }
     .texto11{
+        position: absolute;
         left: 50%;
         top: 50%;
+       
+        
         transform: translate(-50%, -43%);
         font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+        
         
     }
     .nav-links{
