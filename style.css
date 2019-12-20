@@ -619,7 +619,7 @@ footer .fa-instagram:hover{
 
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
-    .huge{
+    html, body{
         overflow-x: hidden;
     }
 }
