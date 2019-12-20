@@ -543,18 +543,7 @@ footer .fa-instagram:hover{
         grid-template-columns: 1fr;
         grid-row-gap: 20px;
     }
-    .texto11{
-        position: absolute;
-        left: 50%;
-        top: 50%;
-       
-        
-        transform: translate(-50%, -43%);
-        font-family: 'Poppins', sans-serif;
-        overflow-x: hidden;
-        
-        
-    }
+   
     .nav-links{
         position: absolute;
         right: 0px;
