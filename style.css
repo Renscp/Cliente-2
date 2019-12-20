@@ -363,7 +363,36 @@ body{
    }
    
    
+   .dollar4 {
+       color: red;
+       font-size: 40px;
+   }
+   
+   .dollar5 {
+       color: red;
+       font-size: 40px;
+   }
+   
+   
+   .dollar6 {
+       color: red;
+       font-size: 40px;
+   }
 
+   .dollar7 {
+    color: red;
+    font-size: 40px;
+}
+
+.dollar8 {
+    color: red;
+    font-size: 40px;
+}
+
+.dollar9 {
+    color: red;
+    font-size: 40px;
+}
 
 .color{
     background-color: white;
@@ -514,7 +543,23 @@ footer .fa-instagram:hover{
         grid-template-columns: 1fr;
         grid-row-gap: 20px;
     }
-   
+    .texto11{
+       
+        position: absolute;
+        left: 50%;
+        top: 50%;
+       
+        
+        transform: translate(-50%, -43%);
+        font-family: 'Poppins', sans-serif;
+        overflow-x: hidden;
+        
+        
+    }
+
+    
+
+
     .nav-links{
         position: absolute;
         right: 0px;
