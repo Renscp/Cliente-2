@@ -511,7 +511,7 @@ footer .fa-instagram:hover{
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:900px){
 
    /* html, body{
         overflow-x: hidden;
@@ -519,7 +519,9 @@ footer .fa-instagram:hover{
     } */
    .huge{
         /* touch-action: pan-y pinch-zoom; */
+        position: relative;
         overflow-x: hidden;
+       
        
     }
 
@@ -623,6 +625,16 @@ footer .fa-instagram:hover{
         overflow-x: hidden;
     }
 }
+
+@media screen and (device-aspect-ratio: 2/3) {
+    .huge{
+        touch-action: pan-y pinch-zoom;
+       
+       
+    }
+}
+
+
 
 .toggle .line1{
     transform: rotate(-45deg) translate(-5px, 6px);
