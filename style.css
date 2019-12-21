@@ -730,7 +730,7 @@ footer .fa-instagram:hover{
 }
 
 
-@media screen and (device-aspect-ratio: 40/71) {
+/* @media screen and (device-aspect-ratio: 40/71) {
 
     #wheel-size{
         display: block;
@@ -743,7 +743,7 @@ footer .fa-instagram:hover{
         top: 0.2%;
         left: -45%;
     }
-}
+} */
 
 
 
