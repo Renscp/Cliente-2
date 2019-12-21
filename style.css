@@ -114,17 +114,24 @@ body{
 
 }
 
+
   .texto11{
-    color: white;
+      
+     color: white;
     font-size: 30px;
-    z-index: 1;
-    text-align: center;
+   
+    text-align: center; 
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
     
+    
+    
+  }
+header{
+    display: grid;
 }
 
 
@@ -399,7 +406,10 @@ body{
 
 .color{
     /* background-color: white; */
+    
+    position: relative;
     background-color: #ecf0f1
+    
 }
 
 footer{
