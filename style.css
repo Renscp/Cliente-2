@@ -557,11 +557,16 @@ footer .fa-instagram:hover{
 #wheel-size{
     /* display: inline; */
     position: absolute;
-    top: 90%;
-    left: 0%;
+    top: 12%;
+    left: -10%;
     height: 20vw;
+    
 }
-
+/* 
+.hidden{
+    position: relative;
+    overflow-x: hidden;
+} */
 
    .huge{
         /* touch-action: pan-y pinch-zoom; */
