@@ -677,6 +677,8 @@ footer .fa-instagram:hover{
     html, body{
         overflow-x: hidden;
     }
+
+    
 }
 
 @media screen and (device-aspect-ratio: 2/3) {
@@ -685,7 +687,27 @@ footer .fa-instagram:hover{
        
        
     }
+
+    
 }
+
+
+@media screen and (device-aspect-ratio: 40/71) {
+
+    .texto11{
+        top: 5%;
+    }
+    #wheel-size{
+        /* display: inline; */
+        position: absolute;
+        top: 10%;
+        left: -30%;
+        height: 20vw;
+        
+    }
+}
+
+
 
 
 
