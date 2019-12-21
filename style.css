@@ -9,7 +9,8 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #5d4954;
+    /* background-color: #5d4954; */
+    background-color: rgb(39, 36, 36);
     font-family: 'Poppins', sans-serif;
 
 }
@@ -42,7 +43,8 @@ body{
 }
 
 .nav-links a{
-    color: rgb(212, 203, 203);
+    /* color: rgb(212, 203, 203); */
+    color: white;
     text-decoration: none;
    
     
@@ -63,7 +65,8 @@ body{
 .burger div{
     width: 25px;
     height: 3px;
-    background-color: rgb(212, 203, 203);
+    /* background-color: rgb(212, 203, 203); */
+    background-color: #e74c3c;
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -395,7 +398,8 @@ body{
 }
 
 .color{
-    background-color: white;
+    /* background-color: white; */
+    background-color: #ecf0f1
 }
 
 footer{
@@ -404,14 +408,16 @@ footer{
     text-align: center;
     align-items: center;
     width: 100%;
-    background-color: #5d4954;
+    /* background-color: #5d4954; */
+    background-color: rgb(26, 24, 24);
     height: 120px;
     z-index: 1;
     overflow: hidden;
 }
 
 footer p{
-    color: rgb(212, 203, 203);
+    /* color: rgb(212, 203, 203); */
+    color: white;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
@@ -422,6 +428,7 @@ footer .fa-twitter{
     right: 20%;
     overflow: hidden;
     cursor: pointer;
+    color:rgb(66, 167, 245) ;
 }
 
 
@@ -488,6 +495,23 @@ footer .fa-instagram:hover{
     animation: line-anim 2s ease forwards 1.8s;
 }
 
+
+#wheel{
+    animation: wheel  0.8s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+    display: block;
+
+}
+
+#wheel-size{
+    position: absolute;
+    height: 80px;
+    top: 50%;
+    left: 58%;
+
+}
+
 @keyframes line-anim{
     to{
         stroke-dashoffset: 0;
@@ -502,6 +526,19 @@ footer .fa-instagram:hover{
 }
 
 
+/* wheel */
+
+@keyframes wheel{
+    from{
+        transform: rotateZ(0deg);
+    }
+
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+
 
 @media screen and (max-width:1024px){
     .nav-links{
@@ -511,12 +548,21 @@ footer .fa-instagram:hover{
     }
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:768px){
 
    /* html, body{
         overflow-x: hidden;
        
     } */
+#wheel-size{
+    /* display: inline; */
+    position: absolute;
+    top: 90%;
+    left: 0%;
+    height: 20vw;
+}
+
+
    .huge{
         /* touch-action: pan-y pinch-zoom; */
         position: relative;
@@ -574,7 +620,8 @@ footer .fa-instagram:hover{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #5d4954;
+        /* background-color: #5d4954; */
+        background-color: rgb(39, 36, 36);
         width: 50%;
         transform: translate(100%);
         transition: transform 0.5s ease-in;
