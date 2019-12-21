@@ -33,9 +33,10 @@ body{
 }
 
 .nav-links{
+    
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 60%;
 }
 
 .nav-links li{
@@ -44,7 +45,8 @@ body{
 
 .nav-links a{
     /* color: rgb(212, 203, 203); */
-    color: white;
+    /* color: white; */
+    color: #e74c3c;
     text-decoration: none;
    
     
@@ -53,13 +55,15 @@ body{
 }
 
 .nav-links a:hover{
-    color: blanchedalmond;
+    /* color: blanchedalmond; */
+    color: #d35400;
 }
 
 
 .burger{
     display: none;
     cursor: pointer;
+    z-index: 2;
 }
 
 .burger div{
@@ -69,6 +73,7 @@ body{
     background-color: #e74c3c;
     margin: 5px;
     transition: all 0.3s ease;
+    
 }
 
 body{
@@ -456,10 +461,12 @@ footer .fa-instagram:hover{
 }
 
 #caucho-logo{
-    position: absolute;
+    position: relative;
     top: 2%;
     height: 23px;
     animation: fill 0.5s ease forwards 3s;
+    
+   
 }
 
 #caucho-logo path:nth-child(0){
@@ -513,10 +520,13 @@ footer .fa-instagram:hover{
 }
 
 #wheel-size{
-    position: absolute;
-    height: 80px;
-    top: 50%;
-    left: 58%;
+    
+    position: relative;
+    height: 45px;
+    top: 5%;
+    left: -40%;
+    overflow-x: hidden;
+    
 
 }
 
@@ -548,6 +558,12 @@ footer .fa-instagram:hover{
 
 
 
+@media screen and (max-width:961px){
+    #caucho-logo{
+        display: none;
+    }
+}
+
 @media screen and (max-width:1024px){
     .nav-links{
         display: flex;
@@ -564,17 +580,17 @@ footer .fa-instagram:hover{
     } */
 #wheel-size{
     /* display: inline; */
-    position: absolute;
-    top: 10%;
-    left: -10%;
-    height: 20vw;
+    position: relative;
+    
+    /* left: -1%; */
+    /* right: 0%; */
+    left: -180px;
+    height: 6vw;
     
 }
-/* 
 .hidden{
     position: relative;
-    overflow-x: hidden;
-} */
+}
 
    .huge{
         /* touch-action: pan-y pinch-zoom; */
@@ -585,12 +601,20 @@ footer .fa-instagram:hover{
     }
 
     #caucho-logo{
-        position: absolute;
-        top: 2%;
-        left: -26%;
-        display: none;
+        position: relative;
+        
+        left: 45%;
+        display: block;
+        z-index: 2;
+       
         
     }
+    /* .caucho-overflow{
+        display: block;
+        overflow-x: hidden;
+        position: relative;
+        z-index: -1;
+    } */
     .grid-3{
         grid-template-columns: 1fr;
         grid-row-gap: 20px
@@ -646,6 +670,8 @@ footer .fa-instagram:hover{
     }
 
     .burger{
+        position: absolute;
+        right: 20%;
         display: block;
         cursor: pointer;
     }
@@ -686,6 +712,8 @@ footer .fa-instagram:hover{
         overflow-x: hidden;
     }
 
+   
+
     
 }
 
@@ -696,22 +724,24 @@ footer .fa-instagram:hover{
        
     }
 
+   
+
     
 }
 
 
 @media screen and (device-aspect-ratio: 40/71) {
 
-    .texto11{
-        top: 5%;
-    }
     #wheel-size{
-        /* display: inline; */
+        display: block;
+       position: relative;
+       z-index: 1
+      
+    }
+    #caucho-logo{
         position: absolute;
-        top: 10%;
-        left: -30%;
-        height: 20vw;
-        
+        top: 0.2%;
+        left: -45%;
     }
 }
 
