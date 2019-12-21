@@ -557,7 +557,7 @@ footer .fa-instagram:hover{
 #wheel-size{
     /* display: inline; */
     position: absolute;
-    top: 12%;
+    top: 10%;
     left: -10%;
     height: 20vw;
     
@@ -601,7 +601,7 @@ footer .fa-instagram:hover{
        
         position: absolute;
         left: 50%;
-        top: 7%;
+        top: 5%;
        
         
         transform: translate(-50%, -43%);
